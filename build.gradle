@@ -5,7 +5,11 @@ plugins {
 }
 
 group = 'com.sia'
-version = '0.0.1-SNAPSHOT'
+if (project.hasProperty('appVersion')) {
+	project.version = project.appVersion
+} else {
+	project.version = '0.0.1'
+}
 
 java {
 	sourceCompatibility = '17'
