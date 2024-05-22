@@ -10,7 +10,7 @@ WORKDIR /app
 CMD echo "### JAR_VERSION ${JAR_VERSION}"
 CMD echo "### VERSION ${VERSION}"
 CMD echo "### PROFILE ${PROFILE}"
-COPY build/libs/sia-cicd-${VERSION}.jar .
+COPY build/libs/cicd-${VERSION}.jar .
 
-CMD java -jar -Xmx1300m -Xms1024m -Dspring.profiles.active=${PROFILE} sia-cicd-${VERSION}.jar
+CMD java -jar -Xmx1300m -Xms1024m -Dspring.profiles.active=${PROFILE} cicd-${VERSION}.jar
 
