@@ -8,7 +8,7 @@
     
 
 #### 작업 완료 후 ECR, ECS, 계정정보 모두 삭제
-- 계정 권한 삭제
-- 계정 삭제
-- ECR 삭제 
-- ECS Cluster, ECS Service, ECS Task Definition 삭제
+    - 계정 권한 삭제
+    - 계정 삭제
+    - ECR 삭제 
+    - ECS Cluster, ECS Service, ECS Task Definition 삭제
