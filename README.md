@@ -6,3 +6,9 @@
     - AWS ECS로 배포 자동화
     - ECS Task Definition을 이용하여 서비스 자동 배포
     
+
+#### 작업 완료 후 ECR, ECS, 계정정보 모두 삭제
+- 계정 권한 삭제
+- 계정 삭제
+- ECR 삭제 
+- ECS Cluster, ECS Service, ECS Task Definition 삭제
