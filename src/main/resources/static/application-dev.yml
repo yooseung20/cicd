@@ -1,0 +1,16 @@
+server:
+  port: 8081
+  max-http-header-size: 1024KB
+  shutdown: graceful
+service:
+  environment: dev
+spring:
+  application:
+    name: sia-cicd
+  servlet:
+    multipart:
+      max-file-size: 200MB
+      max-request-size: 200MB
+  lifecycle:
+    timeout-per-shutdown-phase: 20s #default 30s
+
