@@ -2,8 +2,8 @@
 FROM public.ecr.aws/o5b7y9x9/amazoncorretto:17
 ARG JAR_VERSION
 # Set build arguments (can be overridden during the build)
-ARG VERSION
-ARG PROFILE
+ARG VERSION=latest
+ARG PROFILE=dev
 
 WORKDIR /app
 
